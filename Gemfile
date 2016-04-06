@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
+gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'pg'
 gem 'rails', '4.2.5.2'

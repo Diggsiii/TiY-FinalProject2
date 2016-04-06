@@ -13,5 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ $navbar-height: 50px;
+ $navbar-default-bg: #000000;
+ $navbar-default-link-color: #FFFFFF;
+ $jumbotron-bg: #000000;
+ $jumbotron-heading-color: #FFFFFF;
+
+
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ .center {
+   text-align: center;
+ }
+
+
+.indexP {
+  color: #FFFFFF;
+}
