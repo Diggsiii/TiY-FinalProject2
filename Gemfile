@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'sass-rails', '~> 5.0'
@@ -20,6 +21,6 @@ group :development do
 end
 
 group :production do
-  
+
   gem 'rails_12factor'
 end
